@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YouTube-like Homepage</title>
+        <link rel="stylesheet" href="home.component.css">
+    </head>
+    <body>
+        <header>
+            <h1>YouTube</h1>
+            <input type="text" placeholder="Search videos..." [(ngModel)]="searchQuery" (keyup.enter)="searchVideos()">
+            <button>Search</button>
+        </header>
+        
+     <div class="video-container">
+      <div>
+        <video width="560" height="315" controls>
+          <source src="assets/YOUTUBE.mp4" type="video/mp4">
+      </video>
+     <h1>Introduction 🚀</h1>
+          <p>
+            <strong><br>🎉 Welcome to Syitah's Youtube Channel! 🎉<br></strong>
+            
+            
+            We're thrilled to have you here! Whether you're into or just looking for some entertainment, you've come to the right place.
+            
+            Expect exciting content, engaging discussions, and plenty of surprises along the way. Don't forget to hit the subscribe button and turn on notifications so you never miss a video!
+            
+            Join our community and let's embark on this incredible journey together. Thanks for being a part of Syitah's Youtube Channel!
+            
+            
+            </p>
+<br>
+            <div class="video-container">
+              <div>
+                <video width="560" height="315" controls>
+                  <source src="assets/cybersecurity.mp4" type="video/mp4">
+              </video>
+              <h2><br> Cyber Security Attacks🎭 <br></h2>
+              </div>
+
+                <p>CyberSecurity in Malaysia is the national cybersecurity specialist agency under the Ministry of Communications and Multimedia Malaysia. Established in 1997, it operates as the 
+                  national cybersecurity specialist agency with the mission to provide specialized cybersecurity services and initiatives to create a secure and resilient digital environment for Malaysia.</p>
+                </div>
+            </div>
+            <!-- Add more videos here -->
+        </div>
+        <button type="button">Subscribe 🔔</button>
+        <button type="button">Share 📩 </button>
+        <button type="button">Download 📥</button>
+        <button type="button">Saved 💾</button>
+
+    </body>
+    </html>
